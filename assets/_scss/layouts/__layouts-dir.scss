@@ -1,0 +1,37 @@
+
+//Import layout files
+
+@import 'page-title';
+@import 'header-top';
+@import 'header';
+@import 'main-menu';
+@import 'slider';
+@import 'about';
+@import 'our-services';
+@import 'fun-facts';
+@import 'choose-us';
+@import 'recent-project';
+@import 'cta-content';
+@import 'team';
+@import 'testimonial';
+@import 'client-carosel';
+@import 'blog';
+@import 'map';
+@import 'footer';
+
+//  about page 
+@import "about/skills"; //no 
+
+// slider 
+@import 'slider-caption';
+
+
+// contact page
+@import "contact/contact-us";
+@import "contact/contact-form";
+// services 
+@import "services/how-we-work";
+
+
+
+

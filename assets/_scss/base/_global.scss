@@ -1,0 +1,21 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	@include box-sizing(border-box);
+}
+
+section {
+	margin-bottom: $cx-section-spacing;
+	display: block;
+	width:100%;
+	float:none;
+	clear:both;
+}
+
+
+.lead {
+	font-size: 19px;
+}
+
+

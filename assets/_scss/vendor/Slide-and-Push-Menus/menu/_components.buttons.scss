@@ -1,0 +1,33 @@
+/* -----------------------------------------------------------------------------
+
+  BUTTONS
+  
+----------------------------------------------------------------------------- */
+
+.c-buttons {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.c-button {
+  display: inline-block;
+  margin: 4px;
+  color: $color--theme;
+  background: none;
+  font-size: $font-size--small;
+  box-shadow: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.c-button:focus {
+  outline: none;
+}
+
+.c-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

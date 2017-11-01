@@ -1,0 +1,9 @@
+.services {
+	@extend %pt0;
+	@include respond-to(tablet){
+		margin-bottom: 35px;
+	}
+}
+
+
+

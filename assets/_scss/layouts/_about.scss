@@ -1,0 +1,25 @@
+
+.about{
+	@extend %vpadding;
+	padding-bottom:0;
+	.section-title {
+		max-width:100%;
+		width:100%;
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.default-btn {
+		@include respond-to(mobile) {
+			margin-bottom: $cx-col-spacing;
+		}
+	}
+}
+
+
+.img-bordered {
+	border: 10px solid lighten($cx-primary-color,52%);
+	@include respond-to(mobile) {
+		width:100%;
+	}
+}

@@ -1,0 +1,38 @@
+.logo {
+	max-width:235px;
+	@include respond-to(mobile){
+		max-width:150px;
+	}
+	a{
+		display: inline-block;
+	}
+}
+.header-wrapper {
+	background: lighten($cx-body-bg-color, 100%);
+	position:relative;
+	.contact-info {
+		text-align: right;
+		float: right;
+		margin-right: -15px;
+		margin-top: 25px;
+		a {
+			color: $cx-text-color;
+			&:hover {
+				color: $cx-secondary-color;
+			}
+		}
+	}
+}
+
+.header-inline{
+    padding: 15px 0;
+}
+.mobile-menu-button{
+	overflow:hidden ;
+	@include respond-to(mobile){
+		margin-top:28px;
+	}
+	.icon-bar{
+		background:$cx-secondary-color ;
+	}
+}
