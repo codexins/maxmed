@@ -12,8 +12,16 @@
     }
 
     h2 {
-    	@extend .primary-title;
+    	font-size: 22px;
+        margin-bottom: 0;
     }
+
+    h3 {
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
 }
 
 
@@ -28,5 +36,25 @@
 
     @include respond-to(mobile) {
         max-width:100%;
+    }
+
+     
+    .title-bar {
+        &::after {
+            margin-left: 0;
+        }
+        
+    }
+}
+
+.section-title-right {
+    @extend .section-title-left;
+    text-align: right;
+    .title-bar {
+        &::after {
+            margin-left: auto;
+            margin-right: 0;
+        }
+        
     }
 }

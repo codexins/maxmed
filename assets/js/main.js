@@ -2,6 +2,9 @@
 
 $(function() {
 
+  $(window).on( "load resize", function() {
+    $(".fill-screen").css("height", window.innerHeight);
+  });
 
 
 
@@ -16,11 +19,11 @@ $(function() {
     Isotope Js for Portfolio Section
     ---------------------------------------------------------------- */
 
-    var $isocontainer = $('.portfolio-wrapper');
+    var $isocontainer = $('.product-wrapper');
 
     $isocontainer.imagesLoaded(function() {
         $isocontainer.isotope({
-             itemSelector: ".portfolio",
+             itemSelector: ".product",
              layoutMode: 'masonry',
              //percentPosition: true,
         });
@@ -28,7 +31,7 @@ $(function() {
     });
 
 
-    $('.portfolio-filter li').click(function(e) {
+    $('.product-filter li').click(function(e) {
         var $this = $(this);
         var $filter = $this.attr('data-filter');
 
@@ -36,27 +39,10 @@ $(function() {
             filter: $filter,
         });
 
-        $('.portfolio-filter li').removeClass('active');
+        $('.product-filter li').removeClass('active');
         $this.addClass('active');
     });
 
-
-    /**
-    * Slide left instantiation and action.
-    */
-    var slideLeft = new Menu({
-        wrapper: '#o-wrapper',
-        type: 'slide-left',
-        menuOpenerClass: '.c-button',
-        maskId: '#c-mask'
-    });
-
-    var slideLeftBtn = document.querySelector('#c-button--slide-left');
-
-    slideLeftBtn.addEventListener('click', function(e) {
-        e.preventDefault;
-        slideLeft.open();
-    });
 
     // reason-to-choose
 
@@ -153,9 +139,6 @@ $(function() {
           scrollTop:0
       }, 800)
   });  //scrollup finished
-
-
-
 
 
 

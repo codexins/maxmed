@@ -46,6 +46,10 @@
 }
 
 
+.product {
+	@extend %padding-0;
+}
+
 .project-content{
 	opacity:0 ;
 	color: #fff ;

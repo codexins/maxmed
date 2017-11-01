@@ -29,6 +29,13 @@
 	padding-bottom: $cx-section-spacing;
 }
 
+%button {
+	display: inline-block;
+	padding:10px 20px;
+	text-align: center;
+	border:1px solid $cx-text-color;
+}
+
 
 %clearfix {
 	&::before,
@@ -85,3 +92,13 @@
 	justify-content:  flex-end ;
 }
 
+
+
+.is-table-row {
+    display: table;
+}
+.is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
