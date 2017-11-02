@@ -84,6 +84,13 @@
 }
 
 
+@mixin box($size) {
+    width: $size;
+    height: $size;
+    text-align: center;
+    line-height: $size;
+}
+
 
 ///*  CSS Triangles */
 @mixin css-triangle($color, $direction, $size: 6px, $position: absolute, $round: false) {

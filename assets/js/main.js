@@ -86,6 +86,7 @@ $(function() {
         arrows: false,
         asNavFor: '.testimonial-nav'
     });
+
     $('.testimonial-nav').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -134,11 +135,21 @@ $(function() {
     });
   
 
- $("#toTop").on('click', function() {
-      $("html,body").animate({
-          scrollTop:0
-      }, 800)
-  });  //scrollup finished
+    $(window).on('scroll',function () {
+        if($(window).scrollTop()>200) {
+            $("#toTop").fadeIn();
+        } else {
+            $("#toTop").fadeOut();
+        }
+    });
+
+
+
+   $("#toTop").on('click', function() {
+        $("html,body").animate({
+            scrollTop:0
+        }, 800)
+    });  //scrollup finished
 
 
 
