@@ -11984,7 +11984,6 @@ input[type="search"],
 input[type="tel"] {
   padding: 8px 10px;
   border: 1px solid #b3b3b3;
-  margin-bottom: 15px;
   min-height: 40px;
 }
 
