@@ -13,19 +13,63 @@
 			height:100%;
 			display: block;
 			background: #fff;
-			opacity:.90;
+			opacity:.85;
 			left:0;
 			top:0;
 		}
 
 		.process-desc {
-			position: relative;
-			z-index: 1;
-			overflow: hidden;
+		  position: absolute;
+		  top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
 		}
 	}
 
 	.process-slide {
 		@extend %padding-0;
+		.slide-single {
+			width:100%;
+		}
+
+	}
+
+
+
+}
+
+.max-slides {
+	width:100%;
+	img {
+		max-width:100%;
+	}
+
+	.slick-arrow {
+		position: absolute;
+		width:40px;
+		height:40px;
+		line-height: 40px;
+		text-align: center;
+		background: lighten($cx-text-color, 100%);
+		background: rgba($cx-primary-color,0.8);
+		color: lighten($cx-text-color, 100%);
+		bottom:0;
+		z-index: 1;
+		cursor:pointer;
+		font-size: 20px;
+		@include transition-all(all .3s);
+		&.arrow-prev {
+			right:0px;
+		}
+
+		&.arrow-next {
+			right:43px;
+		}
+		&:hover {
+			background: $cx-secondary-color;
+		}
 	}
 }

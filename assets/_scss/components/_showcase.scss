@@ -18,7 +18,13 @@
 
     a {
     	@extend %button;
-    	border-color: #fff;
+        text-transform: uppercase;
+    	border-color: $cx-primary-color;
     	color: #fff;
+        background: $cx-primary-color;
+        &:hover {
+            background: $cx-secondary-color;
+            border-color: $cx-secondary-color;
+        }
     }
 }

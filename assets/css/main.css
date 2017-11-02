@@ -12940,8 +12940,15 @@ ul.address-card li.card-location::before {
 }
 
 .showcase a {
-  border-color: #fff;
+  text-transform: uppercase;
+  border-color: #1ca5b8;
   color: #fff;
+  background: #1ca5b8;
+}
+
+.showcase a:hover {
+  background: #ff646c;
+  border-color: #ff646c;
 }
 
 .primary-list {
@@ -13414,15 +13421,63 @@ ul.address-card li.card-location::before {
   height: 100%;
   display: block;
   background: #fff;
-  opacity: .90;
+  opacity: .85;
   left: 0;
   top: 0;
 }
 
 .validation-process .process-wrapper .process-desc {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.validation-process .process-slide .slide-single {
+  width: 100%;
+}
+
+.max-slides {
+  width: 100%;
+}
+
+.max-slides img {
+  max-width: 100%;
+}
+
+.max-slides .slick-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: white;
+  background: rgba(28, 165, 184, 0.8);
+  color: white;
+  bottom: 0;
   z-index: 1;
-  overflow: hidden;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.max-slides .slick-arrow.arrow-prev {
+  right: 0px;
+}
+
+.max-slides .slick-arrow.arrow-next {
+  right: 43px;
+}
+
+.max-slides .slick-arrow:hover {
+  background: #ff646c;
 }
 
 @media only screen and (max-width: 479px) {
