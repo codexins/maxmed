@@ -12628,7 +12628,7 @@ ul.address-card li.card-location::before {
   height: 100%;
   overflow: visible;
   background: url(../../assets/img/bars.svg) no-repeat center center;
-  background-color: #fff;
+  background-color: white;
 }
 
 .page-title {
@@ -12789,6 +12789,10 @@ ul.address-card li.card-location::before {
 }
 
 .navbar.affix .main-menu li a:hover {
+  color: #ff646c;
+}
+
+.navbar.affix .main-menu li.active a {
   color: #ff646c;
 }
 
@@ -13017,13 +13021,17 @@ ul.address-card li.card-location::before {
 
 .main-menu li a {
   text-transform: uppercase;
-  padding: 10px 15px;
   display: block;
   color: white;
 }
 
 .main-menu li a:hover {
   color: #ff646c;
+  background: transparent;
+}
+
+.main-menu li a:focus {
+  background: transparent;
 }
 
 @media only screen and (max-width: 767px) {

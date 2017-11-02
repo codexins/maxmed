@@ -76,6 +76,9 @@
                         color: $cx-secondary-color;
                     }
                 }
+            &.active a {
+                color: $cx-secondary-color;
+            }
             }
         }
     }

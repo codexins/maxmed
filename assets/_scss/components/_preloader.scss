@@ -7,6 +7,6 @@
     height: 100%;
     overflow: visible;
     background: url(../../assets/img/bars.svg) no-repeat center center;
-    background-color: #fff;
+    background-color: lighten($cx-text-color,100%);
 
 }

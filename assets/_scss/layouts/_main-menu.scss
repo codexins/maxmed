@@ -15,11 +15,14 @@
 		display: inline-block;
 		a {
 			text-transform: uppercase;
-			padding:10px 15px;
 			display: block;
 			color: lighten($cx-text-color, 100%);
 			&:hover {
 				color: $cx-secondary-color;
+				background: transparent;
+			}
+			&:focus {
+				background: transparent;
 			}
 			@include respond-to(mobile) {
 				color: $cx-text-color;
