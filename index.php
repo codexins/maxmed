@@ -422,9 +422,8 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                                 </div>
                             </div>
                             <div class="col-xs-12">
-                                <p><img src="captcha.php" width="120" height="30" border="1" alt="CAPTCHA"></p>
-                                <p><input type="text" size="6" maxlength="5" name="captcha" value="" required><br>
-                                <small>copy the digits from the image into this box</small></p>
+                                <p><img src="captcha.php" width="160" height="60" border="1" alt="CAPTCHA"></p>
+                                <p><span class="full-width-input"><input type="text" placeholder="Write down the above digits in this box" size="6" maxlength="5" name="captcha" value="" required></span></p>
                             </div>
                             <div class="col-sm-offset-4 col-sm-4 text-center">
                                 <input type="submit" name="contact" value="Send Message" class="full-width">
