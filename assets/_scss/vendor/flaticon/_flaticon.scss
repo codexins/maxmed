@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 08/05/2017 09:43
+    Creation date: 02/11/2017 14:59
     */
 
     @font-face {
@@ -22,7 +22,7 @@
 }
 
     .fi:before{
-  display: inline-block;
+        display: inline-block;
   font-family: "Flaticon";
   font-style: normal;
   font-weight: normal;
@@ -36,64 +36,198 @@
   font-smoothing: antialiased;
     }
 
-.flaticon-001-teamwork-3:before { content: "\f100"; }
-.flaticon-002-teamwork-2:before { content: "\f101"; }
-.flaticon-003-support:before { content: "\f102"; }
-.flaticon-004-management:before { content: "\f103"; }
-.flaticon-005-exchange:before { content: "\f104"; }
-.flaticon-006-brainstorming:before { content: "\f105"; }
-.flaticon-007-gears:before { content: "\f106"; }
-.flaticon-008-networking:before { content: "\f107"; }
-.flaticon-009-transfer:before { content: "\f108"; }
-.flaticon-010-team-3:before { content: "\f109"; }
-.flaticon-011-presentation:before { content: "\f10a"; }
-.flaticon-012-strategy:before { content: "\f10b"; }
-.flaticon-013-profits:before { content: "\f10c"; }
-.flaticon-014-settings:before { content: "\f10d"; }
-.flaticon-015-discussion:before { content: "\f10e"; }
-.flaticon-016-files:before { content: "\f10f"; }
-.flaticon-017-tasks-2:before { content: "\f110"; }
-.flaticon-018-tasks-1:before { content: "\f111"; }
-.flaticon-019-community:before { content: "\f112"; }
-.flaticon-020-curriculum:before { content: "\f113"; }
-.flaticon-021-puzzle:before { content: "\f114"; }
-.flaticon-022-team-2:before { content: "\f115"; }
-.flaticon-023-teamwork-1:before { content: "\f116"; }
-.flaticon-024-communication:before { content: "\f117"; }
-.flaticon-025-tasks:before { content: "\f118"; }
-.flaticon-026-team-1:before { content: "\f119"; }
-.flaticon-027-man:before { content: "\f11a"; }
-.flaticon-028-woman:before { content: "\f11b"; }
-.flaticon-029-teamwork:before { content: "\f11c"; }
-.flaticon-030-team:before { content: "\f11d"; }
+    .flaticon-science-1:before { content: "\f100"; }
+.flaticon-science:before { content: "\f101"; }
+.flaticon-science-2:before { content: "\f102"; }
+.flaticon-cooking-1:before { content: "\f103"; }
+.flaticon-levels-1:before { content: "\f104"; }
+.flaticon-levels:before { content: "\f105"; }
+.flaticon-heating:before { content: "\f106"; }
+.flaticon-high-volume:before { content: "\f107"; }
+.flaticon-equalizer:before { content: "\f108"; }
+.flaticon-air-filter-1:before { content: "\f109"; }
+.flaticon-mobile-receiving-email:before { content: "\f10a"; }
+.flaticon-mobile-email:before { content: "\f10b"; }
+.flaticon-phone-book:before { content: "\f10c"; }
+.flaticon-vacuum-cleaner:before { content: "\f10d"; }
+.flaticon-businessman:before { content: "\f10e"; }
+.flaticon-smartphone-2:before { content: "\f10f"; }
+.flaticon-house-1:before { content: "\f110"; }
+.flaticon-cooking:before { content: "\f111"; }
+.flaticon-windy:before { content: "\f112"; }
+.flaticon-iso:before { content: "\f113"; }
+.flaticon-thermometer-1:before { content: "\f114"; }
+.flaticon-customer-service:before { content: "\f115"; }
+.flaticon-biological-hazard:before { content: "\f116"; }
+.flaticon-technology-1:before { content: "\f117"; }
+.flaticon-operating-room:before { content: "\f118"; }
+.flaticon-email-message-by-mobile-phone:before { content: "\f119"; }
+.flaticon-email-envelope-back-symbol-on-phone-screen:before { content: "\f11a"; }
+.flaticon-no-sound-interface-symbol:before { content: "\f11b"; }
+.flaticon-poisonous-chemical-bottle-with-syringe:before { content: "\f11c"; }
+.flaticon-businessman-standing-beside-a-drawer:before { content: "\f11d"; }
+.flaticon-hazard-sign:before { content: "\f11e"; }
+.flaticon-fire-hazard-sign:before { content: "\f11f"; }
+.flaticon-megaphone:before { content: "\f120"; }
+.flaticon-thermometer-tool:before { content: "\f121"; }
+.flaticon-people-1:before { content: "\f122"; }
+.flaticon-people:before { content: "\f123"; }
+.flaticon-medical-operation:before { content: "\f124"; }
+.flaticon-car-air-conditioning:before { content: "\f125"; }
+.flaticon-technology:before { content: "\f126"; }
+.flaticon-gas-mask:before { content: "\f127"; }
+.flaticon-no-audio:before { content: "\f128"; }
+.flaticon-regulator:before { content: "\f129"; }
+.flaticon-high-voltage-bolt:before { content: "\f12a"; }
+.flaticon-pressure-indicator:before { content: "\f12b"; }
+.flaticon-person-with-arms-outstretched:before { content: "\f12c"; }
+.flaticon-power:before { content: "\f12d"; }
+.flaticon-hoover:before { content: "\f12e"; }
+.flaticon-crutch:before { content: "\f12f"; }
+.flaticon-waste:before { content: "\f130"; }
+.flaticon-gps:before { content: "\f131"; }
+.flaticon-industry:before { content: "\f132"; }
+.flaticon-ventilator:before { content: "\f133"; }
+.flaticon-no-headphones:before { content: "\f134"; }
+.flaticon-sprout:before { content: "\f135"; }
+.flaticon-scissors:before { content: "\f136"; }
+.flaticon-fire:before { content: "\f137"; }
+.flaticon-doctor:before { content: "\f138"; }
+.flaticon-no-smoking:before { content: "\f139"; }
+.flaticon-scale:before { content: "\f13a"; }
+.flaticon-thermometer:before { content: "\f13b"; }
+.flaticon-flask:before { content: "\f13c"; }
+.flaticon-air-filter:before { content: "\f13d"; }
+.flaticon-hand:before { content: "\f13e"; }
+.flaticon-house:before { content: "\f13f"; }
+.flaticon-barrier-2:before { content: "\f140"; }
+.flaticon-fan:before { content: "\f141"; }
+.flaticon-hospital:before { content: "\f142"; }
+.flaticon-smartphone-1:before { content: "\f143"; }
+.flaticon-high-voltage:before { content: "\f144"; }
+.flaticon-file-1:before { content: "\f145"; }
+.flaticon-nature:before { content: "\f146"; }
+.flaticon-barrier-1:before { content: "\f147"; }
+.flaticon-co2:before { content: "\f148"; }
+.flaticon-file:before { content: "\f149"; }
+.flaticon-contact:before { content: "\f14a"; }
+.flaticon-research:before { content: "\f14b"; }
+.flaticon-barrier:before { content: "\f14c"; }
+.flaticon-medical-2:before { content: "\f14d"; }
+.flaticon-biohazard:before { content: "\f14e"; }
+.flaticon-medical-1:before { content: "\f14f"; }
+.flaticon-cleaning:before { content: "\f150"; }
+.flaticon-medical:before { content: "\f151"; }
+.flaticon-recycle:before { content: "\f152"; }
+.flaticon-no-fire:before { content: "\f153"; }
+.flaticon-toxic:before { content: "\f154"; }
+.flaticon-map-location:before { content: "\f155"; }
+.flaticon-man:before { content: "\f156"; }
+.flaticon-manager-2:before { content: "\f157"; }
+.flaticon-gps-1:before { content: "\f158"; }
+.flaticon-map-1:before { content: "\f159"; }
+.flaticon-manager-avatar:before { content: "\f15a"; }
+.flaticon-manager-1:before { content: "\f15b"; }
+.flaticon-road:before { content: "\f15c"; }
+.flaticon-manager:before { content: "\f15d"; }
+.flaticon-map:before { content: "\f15e"; }
+.flaticon-smartphone:before { content: "\f15f"; }
+.flaticon-factory:before { content: "\f160"; }
     
-    $font-Flaticon-001-teamwork-3: "\f100";
-    $font-Flaticon-002-teamwork-2: "\f101";
-    $font-Flaticon-003-support: "\f102";
-    $font-Flaticon-004-management: "\f103";
-    $font-Flaticon-005-exchange: "\f104";
-    $font-Flaticon-006-brainstorming: "\f105";
-    $font-Flaticon-007-gears: "\f106";
-    $font-Flaticon-008-networking: "\f107";
-    $font-Flaticon-009-transfer: "\f108";
-    $font-Flaticon-010-team-3: "\f109";
-    $font-Flaticon-011-presentation: "\f10a";
-    $font-Flaticon-012-strategy: "\f10b";
-    $font-Flaticon-013-profits: "\f10c";
-    $font-Flaticon-014-settings: "\f10d";
-    $font-Flaticon-015-discussion: "\f10e";
-    $font-Flaticon-016-files: "\f10f";
-    $font-Flaticon-017-tasks-2: "\f110";
-    $font-Flaticon-018-tasks-1: "\f111";
-    $font-Flaticon-019-community: "\f112";
-    $font-Flaticon-020-curriculum: "\f113";
-    $font-Flaticon-021-puzzle: "\f114";
-    $font-Flaticon-022-team-2: "\f115";
-    $font-Flaticon-023-teamwork-1: "\f116";
-    $font-Flaticon-024-communication: "\f117";
-    $font-Flaticon-025-tasks: "\f118";
-    $font-Flaticon-026-team-1: "\f119";
-    $font-Flaticon-027-man: "\f11a";
-    $font-Flaticon-028-woman: "\f11b";
-    $font-Flaticon-029-teamwork: "\f11c";
-    $font-Flaticon-030-team: "\f11d";
+    $font-Flaticon-science-1: "\f100";
+    $font-Flaticon-science: "\f101";
+    $font-Flaticon-science-2: "\f102";
+    $font-Flaticon-cooking-1: "\f103";
+    $font-Flaticon-levels-1: "\f104";
+    $font-Flaticon-levels: "\f105";
+    $font-Flaticon-heating: "\f106";
+    $font-Flaticon-high-volume: "\f107";
+    $font-Flaticon-equalizer: "\f108";
+    $font-Flaticon-air-filter-1: "\f109";
+    $font-Flaticon-mobile-receiving-email: "\f10a";
+    $font-Flaticon-mobile-email: "\f10b";
+    $font-Flaticon-phone-book: "\f10c";
+    $font-Flaticon-vacuum-cleaner: "\f10d";
+    $font-Flaticon-businessman: "\f10e";
+    $font-Flaticon-smartphone-2: "\f10f";
+    $font-Flaticon-house-1: "\f110";
+    $font-Flaticon-cooking: "\f111";
+    $font-Flaticon-windy: "\f112";
+    $font-Flaticon-iso: "\f113";
+    $font-Flaticon-thermometer-1: "\f114";
+    $font-Flaticon-customer-service: "\f115";
+    $font-Flaticon-biological-hazard: "\f116";
+    $font-Flaticon-technology-1: "\f117";
+    $font-Flaticon-operating-room: "\f118";
+    $font-Flaticon-email-message-by-mobile-phone: "\f119";
+    $font-Flaticon-email-envelope-back-symbol-on-phone-screen: "\f11a";
+    $font-Flaticon-no-sound-interface-symbol: "\f11b";
+    $font-Flaticon-poisonous-chemical-bottle-with-syringe: "\f11c";
+    $font-Flaticon-businessman-standing-beside-a-drawer: "\f11d";
+    $font-Flaticon-hazard-sign: "\f11e";
+    $font-Flaticon-fire-hazard-sign: "\f11f";
+    $font-Flaticon-megaphone: "\f120";
+    $font-Flaticon-thermometer-tool: "\f121";
+    $font-Flaticon-people-1: "\f122";
+    $font-Flaticon-people: "\f123";
+    $font-Flaticon-medical-operation: "\f124";
+    $font-Flaticon-car-air-conditioning: "\f125";
+    $font-Flaticon-technology: "\f126";
+    $font-Flaticon-gas-mask: "\f127";
+    $font-Flaticon-no-audio: "\f128";
+    $font-Flaticon-regulator: "\f129";
+    $font-Flaticon-high-voltage-bolt: "\f12a";
+    $font-Flaticon-pressure-indicator: "\f12b";
+    $font-Flaticon-person-with-arms-outstretched: "\f12c";
+    $font-Flaticon-power: "\f12d";
+    $font-Flaticon-hoover: "\f12e";
+    $font-Flaticon-crutch: "\f12f";
+    $font-Flaticon-waste: "\f130";
+    $font-Flaticon-gps: "\f131";
+    $font-Flaticon-industry: "\f132";
+    $font-Flaticon-ventilator: "\f133";
+    $font-Flaticon-no-headphones: "\f134";
+    $font-Flaticon-sprout: "\f135";
+    $font-Flaticon-scissors: "\f136";
+    $font-Flaticon-fire: "\f137";
+    $font-Flaticon-doctor: "\f138";
+    $font-Flaticon-no-smoking: "\f139";
+    $font-Flaticon-scale: "\f13a";
+    $font-Flaticon-thermometer: "\f13b";
+    $font-Flaticon-flask: "\f13c";
+    $font-Flaticon-air-filter: "\f13d";
+    $font-Flaticon-hand: "\f13e";
+    $font-Flaticon-house: "\f13f";
+    $font-Flaticon-barrier-2: "\f140";
+    $font-Flaticon-fan: "\f141";
+    $font-Flaticon-hospital: "\f142";
+    $font-Flaticon-smartphone-1: "\f143";
+    $font-Flaticon-high-voltage: "\f144";
+    $font-Flaticon-file-1: "\f145";
+    $font-Flaticon-nature: "\f146";
+    $font-Flaticon-barrier-1: "\f147";
+    $font-Flaticon-co2: "\f148";
+    $font-Flaticon-file: "\f149";
+    $font-Flaticon-contact: "\f14a";
+    $font-Flaticon-research: "\f14b";
+    $font-Flaticon-barrier: "\f14c";
+    $font-Flaticon-medical-2: "\f14d";
+    $font-Flaticon-biohazard: "\f14e";
+    $font-Flaticon-medical-1: "\f14f";
+    $font-Flaticon-cleaning: "\f150";
+    $font-Flaticon-medical: "\f151";
+    $font-Flaticon-recycle: "\f152";
+    $font-Flaticon-no-fire: "\f153";
+    $font-Flaticon-toxic: "\f154";
+    $font-Flaticon-map-location: "\f155";
+    $font-Flaticon-man: "\f156";
+    $font-Flaticon-manager-2: "\f157";
+    $font-Flaticon-gps-1: "\f158";
+    $font-Flaticon-map-1: "\f159";
+    $font-Flaticon-manager-avatar: "\f15a";
+    $font-Flaticon-manager-1: "\f15b";
+    $font-Flaticon-road: "\f15c";
+    $font-Flaticon-manager: "\f15d";
+    $font-Flaticon-map: "\f15e";
+    $font-Flaticon-smartphone: "\f15f";
+    $font-Flaticon-factory: "\f160";

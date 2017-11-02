@@ -133,7 +133,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="info-item">
                             <div class="thumb-icon">                              
                                 <span class="icon-border">
-                                    <i class="fa fa-tablet" aria-hidden="true"></i>
+                                    <i class="fi flaticon-businessman-standing-beside-a-drawer" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="item-name">
@@ -148,7 +148,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="info-item">
                             <div class="thumb-icon">                              
                                 <span class="icon-border">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-hand" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="item-name">
@@ -163,7 +163,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="info-item">
                             <div class="thumb-icon">                              
                                 <span class="icon-border">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-nature" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="item-name">
@@ -178,7 +178,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="info-item">
                             <div class="thumb-icon">                              
                                 <span class="icon-border">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-recycle" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="item-name">
@@ -193,7 +193,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="info-item">
                             <div class="thumb-icon">                              
                                 <span class="icon-border">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-operating-room" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="item-name">
@@ -208,7 +208,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="info-item">
                             <div class="thumb-icon">                              
                                 <span class="icon-border">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-barrier" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="item-name">
@@ -437,7 +437,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="contact-box">
                             <div class="thumb-icon">                              
                                 <span>
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-businessman" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="contact-item-wrapper">
@@ -449,24 +449,24 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <div class="contact-box">
                             <div class="thumb-icon">                              
                                 <span>
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-smartphone" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="contact-item-wrapper">
-                                <p>Abdullah Alshaikh</p>
-                                <p>General Manager</p>
+                                <p><a href="tel:+968 99098680">+968 99098680</a></p>
+                                <p><a href="mailto:alshaikh@maxmedoman.com">alshaikh@maxmedoman.com</a></p>
                             </div>
                         </div>
 
                         <div class="contact-box">
                             <div class="thumb-icon">                              
                                 <span>
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fi flaticon-map-1" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <div class="contact-item-wrapper">
-                                <p>Abdullah Alshaikh</p>
-                                <p>General Manager</p>
+                                <p>PC 121, PO Box 72 Seeb</p>
+                                <p>Sultanate of Oman</p>
                             </div>
                         </div>
 
@@ -643,8 +643,8 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
 
         var image = 'assets/img/map-marker.png';
         map.addMarker({
-            lat: 23.761947,
-            lng: 90.435557,
+            lat: 23.614813,
+            lng: 58.205837,
             icon: image,
             animation: google.maps.Animation.DROP,
             verticalAlign: 'bottom',
