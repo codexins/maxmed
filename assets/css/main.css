@@ -11873,6 +11873,18 @@ section {
   font-size: 19px;
 }
 
+.pswp__caption__center i {
+  display: none;
+}
+
+.pswp__caption__center .primary-title {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
 html,
 body {
   font-size: 15px;
@@ -13488,6 +13500,7 @@ ul.address-card li.card-location::before {
 
 .project-item {
   position: relative;
+  cursor: pointer;
 }
 
 .project-item .img {
@@ -13559,16 +13572,17 @@ ul.address-card li.card-location::before {
   }
 }
 
-.project-content h3 {
+.project-content .primary-title {
   text-transform: uppercase;
   position: relative;
   margin-bottom: 10px;
   padding-bottom: 13px;
   font-size: 18px;
   letter-spacing: 3px;
+  color: #ff646c;
 }
 
-.project-content h3:after {
+.project-content .primary-title:after {
   height: 3px;
 }
 
@@ -13576,12 +13590,12 @@ ul.address-card li.card-location::before {
   color: #ff646c;
 }
 
-.project-content p {
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 3px;
-  font-weight: 300;
+.project-content i {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 22px;
 }
 
 .portfolio-filter ul li {

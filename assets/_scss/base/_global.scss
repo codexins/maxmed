@@ -18,4 +18,16 @@ section {
 	font-size: 19px;
 }
 
+.pswp__caption__center {
+	i {
+		display: none;
+	}
 
+	.primary-title {
+		color: lighten($cx-primary-color, 100%);
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		text-transform: capitalize;
+	}
+}

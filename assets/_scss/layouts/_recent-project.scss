@@ -13,6 +13,7 @@
 
 .project-item {
 	position:relative;
+	cursor:pointer;
 	.img{
 		display: block;
 		position:relative;
@@ -43,6 +44,7 @@
 			opacity: 1 ;
 		}
 	}
+
 }
 
 
@@ -50,7 +52,7 @@
 	@extend %padding-0;
 }
 
-.project-content{
+.project-content {
 	opacity:0 ;
 	color: #fff ;
 	@include position-center(both);
@@ -60,7 +62,7 @@
 		@include respond-to(mobile){
 			 opacity: 1;
 		};
-	h3{
+	.primary-title {
 		text-transform: uppercase;
 		position:relative;
 		margin-bottom: 10px;
@@ -70,17 +72,23 @@
 		&:after{
 			height: 3px;
 		}
+		color: $cx-secondary-color;
 	}
 	
 	a{
 		color:$cx-secondary-color ; 
 	}
-	p{
-		margin: 0 ;
-		text-transform: uppercase;
-		font-size: 14px;
-		letter-spacing: 3px;
-		font-weight: 300;
+	// p{
+	// 	margin: 0 ;
+	// 	text-transform: uppercase;
+	// 	font-size: 14px;
+	// 	letter-spacing: 3px;
+	// 	font-weight: 300;
+	// }
+
+	i {
+		@include box(60px);
+		font-size: 22px;
 	}
 }
 
