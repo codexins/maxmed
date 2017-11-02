@@ -15,6 +15,10 @@ $(function() {
         time: 3000
     });
 
+    // form validation
+
+    $("#primary_form").validate();
+
     /*--------------------------------------------------------------
     Isotope Js for Portfolio Section
     ---------------------------------------------------------------- */
@@ -29,10 +33,6 @@ $(function() {
         });
 
     });
-
-    // form validation
-
-    $("#primary_form").validate();
 
 
     $('.product-filter li').click(function(e) {
