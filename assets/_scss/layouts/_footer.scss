@@ -1,6 +1,6 @@
 footer{
 	padding-top: 0.5*$cx-section-spacing;
-	background: #f1f1f1;
+	background: lighten($cx-primary-color, 40%);
 	color: lighten($cx-text-color, 100%);
 	text-align: center;
 }

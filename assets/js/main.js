@@ -55,7 +55,7 @@ $(function() {
   
     $('.main-menu li a:not(a[href^="#products"]), .slider-btn, .explore').bind('click', function() {
       $('html, body').stop().animate({
-        scrollTop: $($(this).attr('href')).offset().top + 0
+        scrollTop: $($(this).attr('href')).offset().top - 60
       }, 800, 'easeOutCubic');
       event.preventDefault();
     });
