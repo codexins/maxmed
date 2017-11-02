@@ -9,4 +9,9 @@
 		max-width:100%;
 		margin-bottom: 15px;
 	}
+    @include respond-to(tablet){
+        img {
+			width: 100%;
+        }
+    }
 }

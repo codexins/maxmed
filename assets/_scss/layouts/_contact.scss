@@ -7,13 +7,29 @@
 			background: #fff;
 			padding-top:30px;
 			padding-bottom: 30px;
+		    overflow: hidden;
 		}
+	    @include respond-to(tablet){
+			.contact-info-wrapper,
+			.form-wrapper {
+				text-align: center;
+				h3 {
+					margin-bottom: 40px;
+				}
+			}
+	    }
 	}
 
 	.form-wrapper {
 		h3 {
 			padding-left: 15px;
 		}
+	    @include respond-to(tablet){
+	    	margin-bottom: $cx-col-spacing;
+			h3 {
+				padding-left: 0;
+			}
+	    }
 	}
 
 	.contact-box {
@@ -25,6 +41,16 @@
 			max-width:25px;
 		}
 	}
+    @include respond-to(tablet){
+		.contact-box {
+			display: inline-block;
+			float: left;
+			width: 33.33%;
+			.thumb-icon {
+				padding-right: 60px
+			}
+		}
+    }
 }
 
 .contact-form-field {

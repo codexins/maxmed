@@ -12975,6 +12975,12 @@ ul.address-card li.card-location::before {
   margin-right: 1%;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .primary-list li {
+    line-height: 1.45em;
+  }
+}
+
 #preloader {
   position: fixed;
   left: 0;
@@ -13287,14 +13293,6 @@ ul.address-card li.card-location::before {
   }
 }
 
-nav.navbar.affix {
-  position: fixed;
-  width: 100%;
-  z-index: 3;
-  background: #1ca5b8;
-  margin-top: -7px;
-}
-
 .navbar {
   position: relative;
   z-index: 1;
@@ -13365,6 +13363,12 @@ nav.navbar.affix {
 .promo-wrapper img {
   max-width: 100%;
   margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .promo-wrapper img {
+    width: 100%;
+  }
 }
 
 .services {
@@ -13477,6 +13481,12 @@ nav.navbar.affix {
 
 .validation-process .process-slide .slide-single {
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .validation-process {
+    margin-bottom: 45px;
+  }
 }
 
 .max-slides {
@@ -13960,10 +13970,31 @@ nav.navbar.affix {
   background: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us .container .contact-info-wrapper,
+  .contact-us .container .form-wrapper {
+    text-align: center;
+  }
+  .contact-us .container .contact-info-wrapper h3,
+  .contact-us .container .form-wrapper h3 {
+    margin-bottom: 40px;
+  }
 }
 
 .contact-us .form-wrapper h3 {
   padding-left: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us .form-wrapper {
+    margin-bottom: 45px;
+  }
+  .contact-us .form-wrapper h3 {
+    padding-left: 0;
+  }
 }
 
 .contact-us .contact-box {
@@ -13975,6 +14006,17 @@ nav.navbar.affix {
 
 .contact-us .contact-box .thumb-icon {
   max-width: 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us .contact-box {
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+  }
+  .contact-us .contact-box .thumb-icon {
+    padding-right: 60px;
+  }
 }
 
 .contact-form-field input[type=submit] {

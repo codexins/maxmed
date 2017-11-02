@@ -37,6 +37,10 @@
 
 	}
 
+    @include respond-to(tablet){
+    	margin-bottom: $cx-col-spacing;
+    }
+
 
 
 }

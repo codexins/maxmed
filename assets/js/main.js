@@ -202,7 +202,7 @@ $(function() {
     });  //scrollup finished
 
 
-   var colHeight = $('.max-slides').height();
+   var colHeight = $('.max-slides').outerHeight();
    $('.process-wrapper').height(colHeight - 60);
 
 
