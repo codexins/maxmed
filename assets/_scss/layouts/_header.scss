@@ -23,6 +23,33 @@
     padding-bottom: 15px;
 }
 
+
+
+.navbar {
+    &.affix {
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        background: #fff;
+        background: rgba(255,255,255,.98);
+        .logo {
+            background: transparent;
+            margin-top: 0;
+        }
+        img {
+            max-height: 60px;
+        }
+
+        .main-menu {
+            li {
+                a {
+                    color: $cx-text-color;
+                }
+            }
+        }
+    }
+}
+
 .logo {
     max-width: 120px;
     height: auto;
@@ -79,10 +106,3 @@
     }
 }
 
-nav.navbar.affix {
-	position: fixed;
-	width: 100%;
-	z-index: 3;
-	background: $cx-primary-color;
-	margin-top: -7px;
-}

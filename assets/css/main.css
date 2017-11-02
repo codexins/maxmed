@@ -13092,6 +13092,27 @@ ul.address-card li.card-location::before {
   padding-bottom: 15px;
 }
 
+.navbar.affix {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.navbar.affix .logo {
+  background: transparent;
+  margin-top: 0;
+}
+
+.navbar.affix img {
+  max-height: 60px;
+}
+
+.navbar.affix .main-menu li a {
+  color: #333;
+}
+
 .logo {
   max-width: 120px;
   height: auto;
@@ -13290,14 +13311,6 @@ ul.address-card li.card-location::before {
     -o-transform: translateY(-5px);
     transform: translateY(-5px);
   }
-}
-
-nav.navbar.affix {
-  position: fixed;
-  width: 100%;
-  z-index: 3;
-  background: #1ca5b8;
-  margin-top: -7px;
 }
 
 .navbar {
@@ -14106,6 +14119,10 @@ footer {
 
 .primary-form div[class*='col-'] {
   padding-bottom: 0;
+}
+
+.full-width-input {
+  margin-bottom: 15px;
 }
 
 .full-width-input textarea,
