@@ -44,6 +44,19 @@ $(function() {
     });
 
 
+
+    /*--------------------------------------------------------------
+    smooth scrolling
+    ---------------------------------------------------------------- */
+  
+    $('.main-menu li a, .slider-btn, .explore').bind('click', function() {
+      $('html, body').stop().animate({
+        scrollTop: $($(this).attr('href')).offset().top + 50
+      }, 1000, 'easeOutCubic');
+      event.preventDefault();
+    });
+
+
     // reason-to-choose
 
     // $('.reasons-to-choose').slick({
