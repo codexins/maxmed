@@ -1,3 +1,9 @@
+.products {
+	@extend %vpadding;
+	background: lighten($cx-primary-color, 30%);
+}
+
+
 
 .recent-project{
 
@@ -31,12 +37,17 @@
 		}
 		img{
 			width: 100% ;
+			// -webkit-transform: scale(1.006);
+			// -moz-transform: scale(1.006);
+			// -ms-transform: scale(1.006);
+			// -o-transform: scale(1.006);
+			// transform: scale(1.006);
 		}
 	}
 	&:hover{
 		.img {
 			&::before{
-				 @include  absolute-position(10px,10px,10px,10px);
+				 @include  absolute-position(0,0,0,0);
 				opacity: 1 ;
 			}
 		}
@@ -49,7 +60,8 @@
 
 
 .product {
-	@extend %padding-0;
+	//@extend %padding-0;
+	padding:5px;
 }
 
 .project-content {

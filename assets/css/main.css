@@ -11881,7 +11881,7 @@ section {
   color: white;
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: capitalize;
 }
 
@@ -12049,7 +12049,7 @@ input[type="button"]:hover {
   padding: 0.2em 0;
 }
 
-.validation-process .process-slide, .recent-project .portfolio, .product {
+.validation-process .process-slide, .recent-project .portfolio {
   padding: 0;
 }
 
@@ -12057,7 +12057,7 @@ input[type="button"]:hover {
   margin-bottom: 0;
 }
 
-.about, .services, .fun-facts, .testimonial, .client-section, .how-it-works, .service-promo, .inner-services {
+.about, .services, .fun-facts, .products, .testimonial, .client-section, .how-it-works, .service-promo, .inner-services {
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -13492,6 +13492,10 @@ ul.address-card li.card-location::before {
   background: #ff646c;
 }
 
+.products {
+  background: #81dfec;
+}
+
 @media only screen and (max-width: 479px) {
   .recent-project .col-xs-6 {
     width: 100%;
@@ -13542,15 +13546,19 @@ ul.address-card li.card-location::before {
   content: "";
   display: block;
   position: absolute;
-  top: 10px;
-  right: 10px;
-  bottom: 10px;
-  left: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   opacity: 1;
 }
 
 .project-item:hover .project-content {
   opacity: 1;
+}
+
+.product {
+  padding: 5px;
 }
 
 .project-content {
