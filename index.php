@@ -51,7 +51,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="maxmed-navigation">
-                        <ul class="main-menu">
+                        <ul class="nav main-menu">
                             <li><a href="http://themeitems.com/maxmed/">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#services">Services</a></li>
