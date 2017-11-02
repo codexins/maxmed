@@ -30,6 +30,10 @@ $(function() {
 
     });
 
+    // form validation
+
+    $("#primary_form").validate();
+
 
     $('.product-filter li').click(function(e) {
         var $this = $(this);
