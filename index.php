@@ -629,8 +629,8 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
 
         map = new GMaps({
             el: '#gmap',
-            lat: 23.761947,
-            lng: 90.435557,
+            lat: 23.614813,
+            lng: 58.205837,
             scrollwheel:false,
             zoom: 14,
             zoomControl : true,
@@ -638,10 +638,11 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
             streetViewControl : false,
             mapTypeControl: true,
             overviewMapControl: false,
-            clickable: false
+            clickable: false,
+            fullscreenControl: true
         });
 
-        var image = 'images/map-marker.png';
+        var image = 'assets/img/map-marker.png';
         map.addMarker({
             lat: 23.761947,
             lng: 90.435557,
