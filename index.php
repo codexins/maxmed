@@ -1,8 +1,8 @@
 <?php session_start(); 
-    $name = $_SESSION['name'];
-    $email = $_SESSION['email'];
-    $phone = $_SESSION['phone'];
-    $message = $_SESSION['message'];
+    $name = !empty($_SESSION['name'])? $_SESSION['name'] : '';
+    $email = !empty($_SESSION['email'])? $_SESSION['email'] : '';
+    $phone = !empty($_SESSION['phone'])? $_SESSION['phone'] : '';
+    $message = !empty($_SESSION['message'])? $_SESSION['message'] : '';
 ?>
 
 <!doctype html>
