@@ -18,6 +18,28 @@
 			padding:10px 15px;
 			display: block;
 			color: lighten($cx-text-color, 100%);
+			&:hover {
+				color: $cx-secondary-color;
+			}
+			@include respond-to(mobile) {
+				color: $cx-text-color;
+			}
+		}
+		@include respond-to(mobile) {
+			display: block;
 		}
 	}
+
+	@include respond-to(mobile) {
+		text-align: left;
+	}
+}
+
+.navbar-collapse {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+
 }

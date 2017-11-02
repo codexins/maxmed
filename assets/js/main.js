@@ -10,10 +10,10 @@ $(function() {
 
     // counter 
 
-    $('.counter').counterUp({
-        delay: 100,
-        time: 3000
-    });
+    // $('.counter').counterUp({
+    //     delay: 100,
+    //     time: 3000
+    // });
 
     // form validation
 
@@ -175,6 +175,14 @@ $(function() {
     //     ]
 
     // });
+
+    /*--------------------------------------------------------------
+    Closes the Responsive Menu on Menu Item Click
+    ---------------------------------------------------------------- */
+
+    $('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
+    });
 
 
     $('.max-slides').slick({

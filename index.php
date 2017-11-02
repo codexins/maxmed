@@ -582,13 +582,14 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
 
 <!-- slick carousel  -->
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script type='text/javascript' src='assets/js/jquery.easing.1.3.js'></script>
 <!-- counter up  -->
-<script type="text/javascript" src="assets/js/waypoints.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+<!-- <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script> -->
 <!-- camera slider  -->
-<script type='text/javascript' src='assets/js/jquery.mobile.customized.min.js'></script>
+<!-- <script type='text/javascript' src='assets/js/jquery.mobile.customized.min.js'></script>
 <script type='text/javascript' src='assets/js/jquery.easing.1.3.js'></script> 
-<script type='text/javascript' src='assets/js/camera.min.js'></script> 
+<script type='text/javascript' src='assets/js/camera.min.js'></script>  -->
 
 <!-- google map api and gmaps JS
 ============================================ -->
@@ -607,17 +608,17 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
 <script src="assets/js/main.js"></script>
 <script>
 
-(function($){
+// (function($){
 
-    $('#camera_slider').camera({
-        height: '35%',
-        pagination: false,
-        loader: false ,
-        overlayer: true
-        // thumbnails: true,
-    }); 
+//     $('#camera_slider').camera({
+//         height: '35%',
+//         pagination: false,
+//         loader: false ,
+//         overlayer: true
+//         // thumbnails: true,
+//     }); 
 
-})(jQuery)
+// })(jQuery)
 
 </script>
 
