@@ -49,9 +49,16 @@ $(function() {
     smooth scrolling
     ---------------------------------------------------------------- */
   
-    $('.main-menu li a, .slider-btn, .explore').bind('click', function() {
+    $('.main-menu li a:not(a[href^="#products"]), .slider-btn, .explore').bind('click', function() {
       $('html, body').stop().animate({
         scrollTop: $($(this).attr('href')).offset().top + 50
+      }, 1000, 'easeOutCubic');
+      event.preventDefault();
+    });
+
+    $('.main-menu li a[href="#products"]').bind('click', function() {
+      $('html, body').stop().animate({
+        scrollTop: $($(this).attr('href')).offset().top - 50
       }, 1000, 'easeOutCubic');
       event.preventDefault();
     });
