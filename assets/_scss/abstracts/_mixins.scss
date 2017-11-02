@@ -93,6 +93,13 @@
 }
 
 
+@mixin box($size) {
+    width: $size;
+    height: $size;
+    text-align: center;
+    line-height: $size;
+}
+
 
 ///*  CSS Triangles */
 

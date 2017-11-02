@@ -2,7 +2,7 @@
 	border-top:7px solid lighten($cx-text-color, 100%);
 	//border-top:10px solid rgba(255,255,255,.9);
 	position: relative;
-	background:url('/assets/img/showcase.jpg') no-repeat scroll 0 0;
+	background:url('../../assets/img/showcase.jpg') no-repeat scroll 0 0;
 	background-size: cover;
 	&::before {
 		content:"";
