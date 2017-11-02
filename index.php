@@ -69,7 +69,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                 <div class="row">
                     <div class="col-xs-12">
                         <h1>Welcome to MaxMed HEALTHCARE</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aliquid, cumque ducimus molestiae non earum!</p>
+                        <p>MaxMed Healthcare offers a full validation process to ensure and monitor Clean Rooms and other controlled environments to evaluate the level of efficiency obtained in the areas </p>
                         <a href="#services" class="slider-btn">Learn More</a>
                     </div>
                 </div>
