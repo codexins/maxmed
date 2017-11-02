@@ -13292,6 +13292,14 @@ ul.address-card li.card-location::before {
   }
 }
 
+nav.navbar.affix {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background: #1ca5b8;
+  margin-top: -7px;
+}
+
 .navbar {
   position: relative;
   z-index: 1;
