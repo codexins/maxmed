@@ -55,7 +55,7 @@ $(function() {
   
     $('.main-menu li a:not(a[href^="#products"]), .slider-btn, .explore').bind('click', function() {
       $('html, body').stop().animate({
-        scrollTop: $($(this).attr('href')).offset().top + 50
+        scrollTop: $($(this).attr('href')).offset().top + 0
       }, 800, 'easeOutCubic');
       event.preventDefault();
     });
@@ -65,6 +65,24 @@ $(function() {
         scrollTop: $($(this).attr('href')).offset().top - 50
       }, 800, 'easeOutCubic');
       event.preventDefault();
+    });
+
+
+    /*--------------------------------------------------------------
+    ScrollsPy
+    ---------------------------------------------------------------- */
+
+    $('body').scrollspy({
+        target: '.navbar',
+        offset: 150
+    });
+
+    /*--------------------------------------------------------------
+    Activating site loader
+    ---------------------------------------------------------------- */
+
+    jQuery(window).load(function() { 
+        jQuery("#preloader").delay(800).fadeOut("slow"); 
     });
 
 
