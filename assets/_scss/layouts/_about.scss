@@ -9,7 +9,7 @@
 		max-width:100%;
 		margin-bottom: 15px;
 	}
-    @include respond-to(tablet){
+    @include media-only(992px, max){
         img {
 			width: 100%;
         }

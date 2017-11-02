@@ -205,10 +205,10 @@ $(function() {
         }, 800)
     });  //scrollup finished
 
-
-   var colHeight = $('.max-slides').height();
-   $('.process-wrapper').height(colHeight - 60);
-
+   jQuery(window).load(function() { 
+       var colHeight = $('.max-slides').height();
+       $('.process-wrapper').height(colHeight - 60);
+    });
 
 
 })
