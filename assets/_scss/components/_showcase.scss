@@ -16,6 +16,15 @@
     	color: lighten($cx-text-color, 100%);
     }
 
+    p {
+        max-width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        @include respond-to(mobile) {
+            max-width:95%;
+        }
+    }
+
     a {
     	@extend %button;
         text-transform: uppercase;

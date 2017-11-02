@@ -46,13 +46,13 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                         <span class="icon-bar"></span>
                     </button>
                     <div class="logo">
-                        <a class="" href="/"><img src="assets/img/max-med-logo.png" alt="Max Med OMAN Logo"></a>
+                        <a class="" href="http://themeitems.com/maxmed/"><img src="assets/img/max-med-logo.png" alt="Max Med OMAN Logo"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="maxmed-navigation">
                         <ul class="main-menu">
-                            <li><a href="/">Home</a></li>
+                            <li><a href="http://themeitems.com/maxmed/">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#products">Products</a></li>
@@ -69,7 +69,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
                 <div class="row">
                     <div class="col-xs-12">
                         <h1>Welcome to MaxMed HEALTHCARE</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aliquid, cumque ducimus molestiae non earum!</p>
+                        <p>MaxMed Healthcare offers a full validation process to ensure and monitor Clean Rooms and other controlled environments to evaluate the level of efficiency obtained in the areas </p>
                         <a href="#services" class="slider-btn">Learn More</a>
                     </div>
                 </div>
@@ -485,7 +485,7 @@ script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <a href="/" class="center-block"><img src="assets/img/max-med-logo.png" alt="MaxMed HealthCare"></a>
+                        <a href="http://themeitems.com/maxmed/" class="center-block"><img src="assets/img/max-med-logo.png" alt="MaxMed HealthCare"></a>
                         <div class="socials">
                             <a href="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="twitter"><i class="fa fa-twitter"></i></a>

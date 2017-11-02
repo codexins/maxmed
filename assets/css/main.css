@@ -12950,6 +12950,18 @@ ul.address-card li.card-location::before {
   color: white;
 }
 
+.showcase p {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .showcase p {
+    max-width: 95%;
+  }
+}
+
 .showcase a {
   text-transform: uppercase;
   border-color: #1ca5b8;
@@ -13335,6 +13347,7 @@ ul.address-card li.card-location::before {
 }
 
 .main-menu li {
+  font-family: "Exo 2", sans-serif;
   list-style-type: none;
   display: inline-block;
 }
