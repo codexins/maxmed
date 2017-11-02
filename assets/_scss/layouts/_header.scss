@@ -33,6 +33,10 @@
     @include respond-to(mobile) {
         background: #fff;
     }
+
+    @include media-only(tablet, min) {
+        width:100%;
+    }
 }
 
 

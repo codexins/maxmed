@@ -12476,6 +12476,12 @@ ul.address-card li.card-location::before {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .navbar-header {
+    width: 100%;
+  }
+}
+
 .navbar.affix {
   position: fixed;
   width: 100%;
