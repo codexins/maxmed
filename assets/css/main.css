@@ -12975,6 +12975,18 @@ ul.address-card li.card-location::before {
   margin-right: 1%;
 }
 
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: url(../../assets/img/bars.svg) no-repeat center center;
+  background-color: #fff;
+}
+
 .page-title {
   padding-top: 90px;
   padding-bottom: 63px;
@@ -13060,6 +13072,13 @@ ul.address-card li.card-location::before {
   display: block;
   background: #000;
   opacity: 0.6;
+}
+
+.header .navbar {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
 }
 
 .navbar-header {
@@ -13266,6 +13285,14 @@ ul.address-card li.card-location::before {
     -o-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+}
+
+nav.navbar.affix {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background: #1ca5b8;
+  margin-top: -7px;
 }
 
 .navbar {
