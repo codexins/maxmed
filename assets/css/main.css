@@ -12888,8 +12888,14 @@ footer {
   text-align: center;
   line-height: 30px;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #1ca5b8;
   margin: 5px;
+}
+
+.footer-top .socials a:hover {
+  background: #ff646c;
+  border-color: #ff646c;
+  color: #fff;
 }
 
 .copyright-section {

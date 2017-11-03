@@ -22,8 +22,13 @@ footer{
 		a {
 			@include box(30px);
 			display: inline-block;
-			border:1px solid $cx-border-color;
+			border:1px solid $cx-primary-color;
 			margin:5px;
+			&:hover {
+				background: $cx-secondary-color;
+				border-color: $cx_secondary-color;
+				color: #fff;
+			}
 		}
 	}
 }
