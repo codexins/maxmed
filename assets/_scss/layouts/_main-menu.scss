@@ -26,6 +26,7 @@
 			}
 			@include respond-to(mobile) {
 				color: $cx-text-color;
+				padding:7px 0;
 			}
 		}
 		@include respond-to(mobile) {
@@ -33,16 +34,21 @@
 		}
 	}
 
+	@include media-only(tablet, min) {
+		margin-top: 15px;
+	}
+
 	@include respond-to(mobile) {
 		text-align: left;
 	}
+
 }
 
 .navbar-collapse {
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-ms-box-shadow: none;
-	-o-box-shadow: none;
-	box-shadow: none;
+	// -webkit-box-shadow: none;
+	// -moz-box-shadow: none;
+	// -ms-box-shadow: none;
+	// -o-box-shadow: none;
+	// box-shadow: none;
 
 }

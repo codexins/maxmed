@@ -81,6 +81,8 @@
 		padding-bottom: 13px;
 		font-size: 18px;
 		letter-spacing: 3px;
+	    margin-top: 7px;
+	    display: inline-block;
 		&:after{
 			height: 3px;
 		}
@@ -94,17 +96,11 @@
 	a{
 		color:$cx-secondary-color ; 
 	}
-	// p{
-	// 	margin: 0 ;
-	// 	text-transform: uppercase;
-	// 	font-size: 14px;
-	// 	letter-spacing: 3px;
-	// 	font-weight: 300;
-	// }
+
 
 	i {
 		@include box(60px);
-		font-size: 22px;
+		font-size: 44px;
 	}
 }
 
