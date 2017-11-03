@@ -3,7 +3,7 @@
 	.process-wrapper {
 		position: relative;
 		padding: 30px;
-		background: url('../../assets/img/showcase.jpg') no-repeat scroll center;
+		background: url('../../assets/img/validation.jpg') no-repeat scroll center;
 		background-size: cover;
 		overflow: hidden;
 		&::before {
@@ -13,7 +13,7 @@
 			height:100%;
 			display: block;
 			background: #fff;
-			opacity:.85;
+			opacity:.75;
 			left:0;
 			top:0;
 		}
