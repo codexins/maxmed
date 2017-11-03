@@ -54,14 +54,14 @@ jQuery(function($) {
       $('html, body').stop().animate({
         scrollTop: $($(this).attr('href')).offset().top - 30
       }, 800, 'easeOutCubic');
-      event.preventDefault();
+      event.preventDefault ? event.preventDefault() : event.returnValue = false;
     });
 
     $('.main-menu li a[href="#products"]').bind('click', function() {
       $('html, body').stop().animate({
         scrollTop: $($(this).attr('href')).offset().top - 20
       }, 800, 'easeOutCubic');
-      event.preventDefault();
+      event.preventDefault ? event.preventDefault() : event.returnValue = false;
     });
 
 
