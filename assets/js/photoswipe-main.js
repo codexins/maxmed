@@ -202,4 +202,5 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.project-item');
+// initPhotoSwipeFromDOM('.project-item');
+initPhotoSwipeFromDOM('.product-popup');
