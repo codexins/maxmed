@@ -30,10 +30,10 @@
 		    color: #fff;
 		    opacity: 0 ;
 			@extend %transition-all ;
-			@include respond-to(mobile){
-				 opacity: 1;
-				 @include  absolute-position(10px,10px,10px,10px);
-			};
+			// @include respond-to(mobile){
+			// 	 opacity: 1;
+			// 	 @include  absolute-position(10px,10px,10px,10px);
+			// };
 		}
 		img{
 			width: 100% ;
@@ -71,9 +71,9 @@
 	max-width: 80%;
 	text-align: center;
 	@extend %transition-all ;
-		@include respond-to(mobile){
-			 opacity: 1;
-		};
+		// @include respond-to(mobile){
+		// 	 opacity: 1;
+		// };
 	.primary-title {
 		text-transform: uppercase;
 		position:relative;
@@ -85,6 +85,10 @@
 			height: 3px;
 		}
 		color: $cx-secondary-color;
+		@include respond-to(small-mobile) {
+		    font-size: 14px;
+		    letter-spacing: normal;
+		}
 	}
 	
 	a{
