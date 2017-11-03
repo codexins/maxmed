@@ -11928,6 +11928,75 @@ div#toTop:hover {
   margin: 0;
 }
 
+.info-item.boxed {
+  background: #fff;
+  padding: 30px 20px;
+  min-height: 200px;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.info-item.boxed .secondary-title {
+  font-size: 15px;
+}
+
+.info-item.boxed .thumb-icon {
+  margin-top: 20px;
+}
+
+.info-item.boxed .thumb-icon i {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+  .info-item.boxed .thumb-icon i {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .info-item.boxed {
+    min-height: 212px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .info-item.boxed {
+    min-height: 215px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .info-item.boxed {
+    min-height: auto;
+  }
+}
+
+.info-item.boxed:hover {
+  background: #1ca5b8;
+  color: #fff;
+}
+
+.info-item.boxed:hover h3 {
+  color: #fff;
+}
+
+.info-item.boxed:hover p {
+  color: #fff;
+}
+
+.info-item.boxed:hover i {
+  color: #fff;
+}
+
 .circle-dot .slick-dots li {
   width: auto;
   height: inherit;
@@ -12521,6 +12590,7 @@ div#toTop:hover {
 
 .services {
   background: #f1f1f1;
+  padding-bottom: 45px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
