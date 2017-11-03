@@ -23,4 +23,58 @@
 		}
 	}
 
+	&.boxed {
+		background: #fff;
+		padding:30px 20px;
+		min-height:200px;
+		-webkit-box-shadow: 0 0 1px rgba(0,0,0,.3);
+		-moz-box-shadow: 0 0 1px rgba(0,0,0,.3);
+		-ms-box-shadow: 0 0 1px rgba(0,0,0,.3);
+		-o-box-shadow: 0 0 1px rgba(0,0,0,.3);
+		box-shadow: 0 0 1px rgba(0,0,0,.3);
+
+		.secondary-title {
+			font-size: 15px;
+		}
+
+		.thumb-icon {
+			margin-top: 20px;
+			i {
+				font-size: 60px;
+				@include respond-to(mobile) {
+					font-size: 45px;
+				}
+			}
+		}
+
+		@include respond-to(notebook) {
+			min-height: 212px;
+		}
+
+		@include respond-to(tablet) {
+			min-height: 215px;
+		}
+
+		@include respond-to(mobile) {
+			min-height:auto;
+		}
+
+		@include transition-all(all .3s);
+
+		&:hover {
+			background: $cx-primary-color;
+			color:#fff;
+			h3 {
+				color:#fff;
+			}
+
+			p{
+				color: #fff;
+			}
+			i {
+				color: #fff;
+			}
+		}
+	}
+
 }
