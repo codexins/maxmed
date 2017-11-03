@@ -20,6 +20,10 @@
 	    }
 	}
 
+	input[type="submit"] {
+		width:100%;
+	}
+
 	.form-wrapper {
 		h3 {
 			padding-left: 15px;
@@ -47,6 +51,7 @@
 			}
 		}
 	}
+
     @include respond-to(tablet){
 		.contact-box {
 			display: inline-block;
@@ -59,13 +64,14 @@
     }
 }
 
-.contact-form-field {
-	input[type=submit]{
-		color:lighten($cx-text-color,100%);
-		padding: 15px 25px;	
-		&:hover{
-			background:  $cx-secondary-color ;
+// .contact-form-field {
+// 	input[type=submit]{
+// 		color:lighten($cx-text-color,100%);
+// 		width:100%;
+// 		padding: 15px 25px;	
+// 		&:hover{
+// 			background:  $cx-secondary-color ;
 
-		}
-	}
-}
+// 		}
+// 	}
+// }
