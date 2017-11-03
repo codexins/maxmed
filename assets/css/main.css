@@ -11493,6 +11493,12 @@ section {
   clear: both;
 }
 
+@media only screen and (max-width: 767px) {
+  section {
+    margin-bottom: 63px;
+  }
+}
+
 .lead {
   font-size: 19px;
 }
@@ -11687,6 +11693,13 @@ input[type="button"]:hover {
 .about, .services, .fun-facts, .products, .testimonial, .client-section, .how-it-works, .service-promo, .inner-services {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+  .about, .services, .fun-facts, .products, .testimonial, .client-section, .how-it-works, .service-promo, .inner-services {
+    padding-top: 63px;
+    padding-bottom: 63px;
+  }
 }
 
 .showcase a {
@@ -11914,10 +11927,22 @@ input.default-btn, .slide-caption input.default-btn {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .section-title h2, .section-title-left h2, .section-title-right h2 {
+    font-size: 20px;
+  }
+}
+
 .section-title h3, .section-title-left h3, .section-title-right h3 {
   font-size: 30px;
   text-transform: uppercase;
   padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-title h3, .section-title-left h3, .section-title-right h3 {
+    font-size: 26px;
+  }
 }
 
 .section-title-left, .section-title-right {
@@ -13466,6 +13491,7 @@ ul.address-card li.card-location::before {
   .project-content .primary-title {
     font-size: 14px;
     letter-spacing: normal;
+    line-height: 18px;
   }
 }
 
@@ -13479,6 +13505,16 @@ ul.address-card li.card-location::before {
   text-align: center;
   line-height: 60px;
   font-size: 44px;
+}
+
+@media only screen and (max-width: 479px) {
+  .project-content i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 32px;
+  }
 }
 
 .portfolio-filter ul li {
