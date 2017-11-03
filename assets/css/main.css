@@ -12730,30 +12730,38 @@ ul.address-card li.card-location::before {
 }
 
 .navbar-header .navbar-toggle {
-  border-color: #333;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
+  border-color: #1ca5b8;
+  background: #1ca5b8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
 }
 
 .navbar-header .navbar-toggle .icon-bar {
-  background: #333;
+  background: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-header .navbar-toggle {
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
     background: #fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .navbar-header {
-    width: 100%;
-  }
+.navbar .logo-icon {
+  display: none;
 }
 
 .navbar.affix {
+  border: 0;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -12771,29 +12779,54 @@ ul.address-card li.card-location::before {
   margin-top: 0;
 }
 
+.navbar.affix .logo-img {
+  display: none;
+}
+
+.navbar.affix .logo-icon {
+  display: block;
+}
+
 .navbar.affix img {
-  max-height: 60px;
+  max-height: 50px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .navbar.affix .navbar-header {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.navbar.affix .main-menu {
-  margin-top: 10px;
+@media only screen and (min-width: 768px) {
+  .navbar.affix .main-menu {
+    float: right;
+    width: auto;
+    margin-top: 0;
+  }
+  .navbar.affix .main-menu li {
+    display: block;
+    float: left;
+  }
+  .navbar.affix .main-menu li a {
+    padding-top: 21px;
+    padding-bottom: 20px;
+    color: #333;
+  }
+  .navbar.affix .main-menu li a:hover {
+    color: white;
+    background: #1ca5b8;
+  }
+  .navbar.affix .main-menu li.active a {
+    color: white;
+    background: #1ca5b8;
+  }
 }
 
-.navbar.affix .main-menu li a {
-  color: #333;
-}
-
-.navbar.affix .main-menu li a:hover {
-  color: #ff646c;
-}
-
-.navbar.affix .main-menu li.active a {
-  color: #ff646c;
+@media only screen and (max-width: 767px) {
+  .navbar {
+    border: 0;
+  }
 }
 
 .logo {
@@ -12806,6 +12839,18 @@ ul.address-card li.card-location::before {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .logo {
+    max-width: 95px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    max-width: 75px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -13001,6 +13046,18 @@ ul.address-card li.card-location::before {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.98);
+    border-top: 1px solid #ddd;
+  }
+  .navbar-collapse .main-menu {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}
+
 .navbar {
   position: relative;
   z-index: 1;
@@ -13037,6 +13094,7 @@ ul.address-card li.card-location::before {
 @media only screen and (max-width: 767px) {
   .main-menu li a {
     color: #333;
+    padding: 7px 0;
   }
 }
 
@@ -13046,18 +13104,16 @@ ul.address-card li.card-location::before {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .main-menu {
+    margin-top: 15px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .main-menu {
     text-align: left;
   }
-}
-
-.navbar-collapse {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  -o-box-shadow: none;
-  box-shadow: none;
 }
 
 .slide-caption {
@@ -13367,6 +13423,8 @@ ul.address-card li.card-location::before {
   padding-bottom: 13px;
   font-size: 18px;
   letter-spacing: 3px;
+  margin-top: 7px;
+  display: inline-block;
   color: #ff646c;
 }
 
@@ -13383,7 +13441,7 @@ ul.address-card li.card-location::before {
   height: 60px;
   text-align: center;
   line-height: 60px;
-  font-size: 22px;
+  font-size: 44px;
 }
 
 .portfolio-filter ul li {
@@ -13727,6 +13785,10 @@ ul.address-card li.card-location::before {
   }
 }
 
+.contact-us input[type="submit"] {
+  width: 100%;
+}
+
 .contact-us .form-wrapper h3 {
   padding-left: 15px;
 }
@@ -13770,18 +13832,9 @@ ul.address-card li.card-location::before {
   }
 }
 
-.contact-form-field input[type=submit] {
-  color: white;
-  padding: 15px 25px;
-}
-
-.contact-form-field input[type=submit]:hover {
-  background: #ff646c;
-}
-
 footer {
   padding-top: 45px;
-  background: #adeaf3;
+  background: #f1f1f1;
   color: white;
   text-align: center;
 }
