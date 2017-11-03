@@ -1,26 +1,17 @@
-// smooth scrolling js area
-
-$(function() {
-
-  $(window).on( "load resize", function() {
-    $(".fill-screen").css("height", window.innerHeight);
-  });
-
+jQuery(function($) {
+    
+    // full screen height for showcae area
+      $(window).on( "load resize", function() {
+        $(".fill-screen").css("height", window.innerHeight);
+      });
 
 
-    // counter 
-
-    // $('.counter').counterUp({
-    //     delay: 100,
-    //     time: 3000
-    // });
 
     // form validation
-
     $("#primary_form").validate();
 
     /*--------------------------------------------------------------
-    Isotope Js for Portfolio Section
+    Isotope Js for Product Section
     ---------------------------------------------------------------- */
 
     var $isocontainer = $('.product-wrapper');
@@ -86,96 +77,6 @@ $(function() {
     });
 
 
-    // reason-to-choose
-
-    // $('.reasons-to-choose').slick({
-    //     infinite: true,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 2,
-    //     dots: true,
-    //     arrows: false ,
-    //     responsive: [
-    //         {
-    //           breakpoint: 1024,
-    //           settings: {
-    //             slidesToShow: 3,
-    //             slidesToScroll: 3,
-    //             infinite: true,
-    //           }
-    //         },
-    //         {
-    //           breakpoint: 700,
-    //           settings: {
-    //             slidesToShow: 1,
-    //             slidesToScroll: 2,
-    //           }
-    //         },
-    //         {
-    //           breakpoint: 480,
-    //           settings: {
-    //             slidesToShow: 1,
-    //             slidesToScroll: 1, 
-    //           }
-    //         }
-    //     ]
-
-    // });
-    // testimonial 
-
-    // $('.testimonial-carousel').slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    //     asNavFor: '.testimonial-nav'
-    // });
-
-    // $('.testimonial-nav').slick({
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     asNavFor: '.testimonial-carousel',
-    //     centerMode: true,
-    //     focusOnSelect: true,
-    //     responsive: [
-           
-    //         {
-    //           breakpoint: 480,
-    //           settings: {
-    //             arrows: false,
-    //             slidesToShow: 3,
-    //             slidesToScroll: 1, 
-    //           }
-    //         }
-    //       ]
-
-    // });
-
-    //  client  carosel 
-    // $('.client-carousel').slick({
-    //     infinite: true,
-    //     slidesToShow: 5,
-    //     slidesToScroll: 3,
-    //     dots: true,
-    //     arrows: false ,
-    //     autoplay :false ,
-    //      responsive: [
-    //         {
-    //           breakpoint: 700,
-    //           settings: {
-    //             slidesToShow: 4,
-    //             slidesToScroll: 2,
-    //           }
-    //         },
-    //         {
-    //           breakpoint: 480,
-    //           settings: {
-    //             slidesToShow: 2,
-    //             slidesToScroll: 1, 
-    //           }
-    //         }
-    //     ]
-
-    // });
-
     /*--------------------------------------------------------------
     Closes the Responsive Menu on Menu Item Click
     ---------------------------------------------------------------- */
@@ -184,6 +85,10 @@ $(function() {
         $('.navbar-toggle:visible').click();
     });
 
+
+    /*--------------------------------------------------------------
+    SLider on Validation Process section
+    ---------------------------------------------------------------- */
 
     $('.max-slides').slick({
       dots: false,
@@ -196,6 +101,10 @@ $(function() {
       cssEase: 'linear'
     });
   
+
+    /*--------------------------------------------------------------
+    Back to top
+    ---------------------------------------------------------------- */
 
     $(window).on('scroll',function () {
         if($(window).scrollTop()>200) {
@@ -219,4 +128,84 @@ $(function() {
     });
 
 
-})
+});
+
+// Google map
+(function(){
+
+    var map;
+
+    map = new GMaps({
+        el: '#gmap',
+        lat: 23.614813,
+        lng: 58.205837,
+        scrollwheel:false,
+        zoom: 14,
+        zoomControl : true,
+        panControl : false,
+        streetViewControl : false,
+        mapTypeControl: true,
+        overviewMapControl: false,
+        clickable: false,
+        fullscreenControl: true
+    });
+
+    var image = 'assets/img/map-marker.png';
+    map.addMarker({
+        lat: 23.614813,
+        lng: 58.205837,
+        icon: image,
+        animation: google.maps.Animation.DROP,
+        verticalAlign: 'bottom',
+        horizontalAlign: 'center',
+        backgroundColor: '#3e8bff',
+    });
+
+
+    var styles = [ 
+
+    {
+        "featureType": "road",
+        "stylers": [
+        { "color": "#b4b4b4" }
+        ]
+    },{
+        "featureType": "water",
+        "stylers": [
+        { "color": "#d8d8d8" }
+        ]
+    },{
+        "featureType": "landscape",
+        "stylers": [
+        { "color": "#f1f1f1" }
+        ]
+    },{
+        "elementType": "labels.text.fill",
+        "stylers": [
+        { "color": "#000000" }
+        ]
+    },{
+        "featureType": "poi",
+        "stylers": [
+        { "color": "#d9d9d9" }
+        ]
+    },{
+        "elementType": "labels.text",
+        "stylers": [
+        { "saturation": 1 },
+        { "weight": 0.1 },
+        { "color": "#000000" }
+        ]
+    }
+
+    ];
+
+    map.addStyle({
+        styledMapName:"Styled Map",
+        styles: styles,
+        mapTypeId: "map_style"  
+    });
+
+    map.setStyle("map_style");
+}());
+
