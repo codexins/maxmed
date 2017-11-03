@@ -1,4 +1,10 @@
 jQuery(function($) {
+
+    // activating wow (animation on scroll) 
+    $(window).load(function() { 
+        new WOW().init();
+    });
+    
     
     // full screen height for showcae area
       $(window).on( "load resize", function() {
@@ -122,7 +128,7 @@ jQuery(function($) {
         }, 800)
     });  //scrollup finished
 
-   jQuery(window).load(function() { 
+   $(window).load(function() { 
        var colHeight = $('.max-slides').height();
        $('.process-wrapper').height(colHeight - 60);
     });
