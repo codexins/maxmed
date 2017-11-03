@@ -101,4 +101,7 @@
     float: none;
     display: table-cell;
     vertical-align: middle;
+    @include respond-to(mobile) {
+    	display: block;
+    }
 }

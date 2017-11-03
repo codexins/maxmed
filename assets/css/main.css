@@ -11721,6 +11721,12 @@ a, .skew-right:before, .skew-left:before, .social-icon a, .social-icon-large a, 
   vertical-align: middle;
 }
 
+@media only screen and (max-width: 767px) {
+  .is-table-row [class*="col-"] {
+    display: block;
+  }
+}
+
 /*
 This file is used to contain all component imports.
 Files inside this folder should contain all styles relating
@@ -13159,14 +13165,30 @@ ul.address-card li.card-location::before {
   padding-bottom: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .about .col-md-5.col-sm-4:last-child .promo-wrapper {
+    margin-bottom: 0;
+  }
+}
+
 .promo-wrapper img {
   max-width: 100%;
   margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .promo-wrapper img {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .promo-wrapper {
+    text-align: center;
+    margin-bottom: 45px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -13268,6 +13290,12 @@ ul.address-card li.card-location::before {
   top: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .validation-process .process-wrapper {
+    height: 450px !important;
+  }
+}
+
 .validation-process .process-wrapper .process-desc {
   position: absolute;
   top: 50%;
@@ -13276,6 +13304,27 @@ ul.address-card li.card-location::before {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 767px) {
+  .validation-process .process-wrapper .process-desc {
+    width: 100%;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .validation-process .process-wrapper .primary-list li {
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.7em;
+  }
 }
 
 .validation-process .process-slide .slide-single {
@@ -13361,19 +13410,6 @@ ul.address-card li.card-location::before {
   opacity: 0;
 }
 
-@media only screen and (max-width: 767px) {
-  .project-item .img:before {
-    opacity: 1;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-  }
-}
-
 .project-item .img img {
   width: 100%;
 }
@@ -13410,12 +13446,6 @@ ul.address-card li.card-location::before {
   text-align: center;
 }
 
-@media only screen and (max-width: 767px) {
-  .project-content {
-    opacity: 1;
-  }
-}
-
 .project-content .primary-title {
   text-transform: uppercase;
   position: relative;
@@ -13430,6 +13460,13 @@ ul.address-card li.card-location::before {
 
 .project-content .primary-title:after {
   height: 3px;
+}
+
+@media only screen and (max-width: 479px) {
+  .project-content .primary-title {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
 }
 
 .project-content a {
@@ -13774,7 +13811,7 @@ ul.address-card li.card-location::before {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .contact-us .container .contact-info-wrapper,
   .contact-us .container .form-wrapper {
     text-align: center;
@@ -13787,6 +13824,20 @@ ul.address-card li.card-location::before {
 
 .contact-us input[type="submit"] {
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us input[type="submit"] {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us .contact-info-wrapper {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .contact-us .form-wrapper h3 {
@@ -13821,14 +13872,21 @@ ul.address-card li.card-location::before {
   color: #ff646c;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .contact-us .contact-box {
-    display: inline-block;
-    float: left;
-    width: 33.33%;
+    padding-top: 15px;
   }
   .contact-us .contact-box .thumb-icon {
-    padding-right: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .contact-us .contact-box .contact-item-wrapper {
+    display: block;
+  }
+  .contact-us .contact-box:last-child {
+    margin-bottom: 0;
   }
 }
 

@@ -9,7 +9,7 @@
 			padding-bottom: 30px;
 		    overflow: hidden;
 		}
-	    @include respond-to(tablet){
+	    @include media-only(992px, $type: max) {
 			.contact-info-wrapper,
 			.form-wrapper {
 				text-align: center;
@@ -22,6 +22,17 @@
 
 	input[type="submit"] {
 		width:100%;
+		@include respond-to(tablet) {
+			width: 35%;
+		}
+	}
+
+    .contact-info-wrapper {
+	    @include respond-to(tablet) {
+			max-width: 80%;
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
 	}
 
 	.form-wrapper {
@@ -52,13 +63,20 @@
 		}
 	}
 
-    @include respond-to(tablet){
+    @include media-only(992px, $type: max){
 		.contact-box {
-			display: inline-block;
-			float: left;
-			width: 33.33%;
+			padding-top: 15px;
 			.thumb-icon {
-				padding-right: 60px
+			    display: block;
+			    margin-left: auto;
+			    margin-right: auto;
+			    margin-bottom: 15px;
+			}
+			.contact-item-wrapper {
+				display: block;
+			}
+			&:last-child {
+				margin-bottom: 0;
 			}
 		}
     }
