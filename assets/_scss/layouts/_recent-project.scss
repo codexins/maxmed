@@ -90,6 +90,7 @@
 		@include respond-to(small-mobile) {
 		    font-size: 14px;
 		    letter-spacing: normal;
+		    line-height: 18px;
 		}
 	}
 	
@@ -101,6 +102,10 @@
 	i {
 		@include box(60px);
 		font-size: 44px;
+		@include respond-to(small-mobile) {
+			@include box(40px);
+			font-size: 32px;
+		}
 	}
 }
 

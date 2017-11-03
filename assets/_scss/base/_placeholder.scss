@@ -27,6 +27,10 @@
 %vpadding {
 	padding-top: $cx-section-spacing;
 	padding-bottom: $cx-section-spacing;
+	@include respond-to(mobile) {
+		padding-top: .7*$cx-section-spacing;
+		padding-bottom: .7*$cx-section-spacing;
+	}
 }
 
 %button {
