@@ -23,6 +23,7 @@
 	-ms-transform: scale(1.006);
 	-o-transform: scale(1.006);
 	transform: scale(1.006);
+	width: 100%;
 }
 
 .services .info-item {
@@ -45,11 +46,30 @@
 .info-item.boxed:hover h3,
 .info-item.boxed .item-name h3 {
 	color: #fff;
+}
+
+.info-item.boxed .item-name h3 {
 	font-size: 14px;
 	letter-spacing: 0.05em;
 }
 
 .info-item.boxed:hover .item-name {
 	background: #ff646c;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+	.info-item.boxed .item-name h3 {
+		font-size: 75%;
+	}
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+	.info-item.boxed .item-name h3 {
+		font-size: 13px;
+	}
+
 }
 
